@@ -39,6 +39,8 @@ header {
   display: block;
   background-image: linear-gradient(to right, black, var(--cor2), var(--cor1));
   position: relative;
+  width: 100%;
+  height: 50%;
 }
 
 /* __________________________________________________________ */
