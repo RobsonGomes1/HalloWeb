@@ -5,8 +5,6 @@
   src: url(/font/Halloween.ttf);
 }
 
-
-
 :root {
   /* Fontes */
   --fonte-main: "Halloween", "cursive";
@@ -29,7 +27,6 @@
 
 /* __________________________________________________________ */
 
-
 body {
   background-color: black;
 }
@@ -37,12 +34,10 @@ body {
 /* __________________________________________________________ */
 
 header {
- 
   background-image: linear-gradient(to right, black, var(--cor2), var(--cor1));
-  min-height: 150px ;
+  min-height: 150px;
   text-align: center;
   padding-top: 40px;
-
 }
 
 /* __________________________________________________________ */
@@ -57,7 +52,6 @@ header > div.maintext {
   display: block;
   margin: auto;
   padding-bottom: 20px;
-
 }
 /* __________________________________________________________ */
 
@@ -240,18 +234,17 @@ main {
   color: var(--cor2);
   font-family: var(--fonte-serif);
   font-size: 1.3em;
-max-width: 1000px ;
-min-width: 300px;
-margin: auto;
-margin-bottom: 20px;
-padding: 20px;
-box-shadow: 0px 0px 10px black;
-border-bottom-left-radius: 15px;
-border-bottom-right-radius: 15px;
-
+  max-width: 1000px;
+  min-width: 300px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px black;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
-.textperson {
+main.textperson {
   font-family: "Halloween";
   color: white;
   font-size: 2.5em;
@@ -259,7 +252,6 @@ border-bottom-right-radius: 15px;
   text-decoration-color: #3d1800;
   text-decoration-style: wavy;
   text-shadow: 4px 3px 2px black;
-  
 }
 .textperson::after {
   content: "\00a0\00a0\1F383";
