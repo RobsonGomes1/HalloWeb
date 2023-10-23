@@ -38,12 +38,12 @@ body {
 
 header {
   padding: 20px;
+  margin: auto;
+  display: block;
   background-image: linear-gradient(to right, black, var(--cor2), var(--cor1));
   position: relative;
   min-width: 150px;
   text-align: center;
-  
-  
 }
 
 /* __________________________________________________________ */
@@ -51,9 +51,8 @@ header {
 header > div.maintext {
   text-align: center;
   padding-top: 20px;
-  display: block;
   font-weight: 200;
-  margin: auto;
+  margin: -70px 0px 0px 0px;
   font-size: 3.5em;
   font-family: "Halloween";
   color: #d35400;
