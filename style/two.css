@@ -1,0 +1,229 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "Halloween";
+  src: url(/font/Halloween.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Fontes */
+  --fonte-main: "Halloween", "cursive";
+  --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+  --fonte-serif: "sans-serif", "Great Vibes", "cursive";
+
+  /* Colors */
+
+  --cor1: #f08e0e;
+  --cor2: #d35400;
+  --cor3: #963c00;
+  --cor4: #333333;
+  --cor5: #181818;
+}
+
+/* __________________________________________________________ */
+
+body {
+  background-color: black;
+}
+
+/* __________________________________________________________ */
+
+header {
+  padding: 20px;
+  margin: auto;
+  display: block;
+  background-image: linear-gradient(to right, black, var(--cor2), var(--cor1));
+  position: relative;
+}
+
+/* __________________________________________________________ */
+
+header > div.maintext {
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 200;
+  margin: -70px 0px 0px 0px;
+  font-size: 3.5em;
+  font-family: "Halloween";
+  color: #d35400;
+  position: relative;
+}
+/* __________________________________________________________ */
+
+header > div.maintext span {
+  text-shadow: 3px 3px 5px black;
+  animation: animate 3s linear infinite;
+}
+
+header > div.maintext span:nth-child(1) {
+  animation-delay: 0s;
+}
+header > .maintext span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+header > .maintext span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+header > .maintext span:nth-child(4) {
+  animation-delay: 0.3s;
+}
+header > .maintext span:nth-child(5) {
+  animation-delay: 0.4s;
+}
+header > .maintext span:nth-child(6) {
+  animation-delay: 0.5s;
+}
+header > .maintext span:nth-child(7) {
+  animation-delay: 0.6s;
+}
+header > .maintext span:nth-child(8) {
+  animation-delay: 0.7s;
+}
+
+header > .maintext span:nth-child(9) {
+  animation-delay: 0.8s;
+}
+
+header > .maintext span:nth-child(10) {
+  animation-delay: 0.9s;
+}
+
+header > .maintext span:nth-child(11) {
+  animation-delay: 0.7s;
+}
+
+header > .maintext span:nth-child(12) {
+  animation-delay: 1s;
+}
+
+header > .maintext span:nth-child(13) {
+  animation-delay: 1.1s;
+}
+
+/* __________________________________________________________ */
+
+header > p {
+  text-align: center;
+  padding: auto;
+  color: #000000;
+  font-size: 1.5em;
+  font-family: var(--fonte-serif);
+  margin: -70px 0px 0px 0px;
+  width: 100%;
+  height: 100%;
+  text-shadow: 0px 0px 1px #181818;
+  position: relative;
+}
+
+/* __________________________________________________________ */
+
+/* Animation P in header */
+header > p {
+  text-shadow: 0px 1px 6px #181818;
+  animation: animate 4s linear infinite;
+}
+
+header > p:nth-child(1) {
+  animation-delay: 0s;
+}
+header > p:nth-child(2) {
+  animation-delay: 0.1s;
+}
+header > p:nth-child(3) {
+  animation-delay: 0.2s;
+}
+header > p:nth-child(4) {
+  animation-delay: 0.3s;
+}
+header > p:nth-child(5) {
+  animation-delay: 0.4s;
+}
+header > p:nth-child(6) {
+  animation-delay: 0.5s;
+}
+header > p:nth-child(7) {
+  animation-delay: 0.6s;
+}
+header > p:nth-child(8) {
+  animation-delay: 0.7s;
+}
+header > p:nth-child(9) {
+  animation-delay: 0.8s;
+}
+header > p:nth-child(10) {
+  animation-delay: 0.9s;
+}
+/* __________________________________________________________ */
+
+/* key frames blur or in br... Desfoque */
+@keyframes animate {
+  0% {
+    filter: blur(0);
+  }
+
+  40% {
+    filter: blur(20px);
+  }
+
+  80% {
+    filter: blur(0);
+  }
+
+  100% {
+    filter: blur(0);
+  }
+}
+
+/* __________________________________________________________ */
+
+nav {
+  background-color: #000000;
+  margin: 0px 0px 0px 0px;
+  padding: 14px 0px 11px 0px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+nav > a.menus {
+  font-size: 1.2em;
+  background-color: #f08e0e;
+  padding: 10px 10px 10px 5px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #963c00;
+  text-shadow: 0px 0px 1px black;
+  text-align: center;
+}
+
+nav > a.menus:hover {
+  transition: 2s;
+  color: #ffffff;
+  background-color: #181818;
+}
+
+nav > a.menusinf {
+  font-size: 1em;
+  background-color: #f08e0e;
+  padding: 10px 10px 10px 5px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #963c00;
+  text-shadow: 0px 0px 1px black;
+  text-align: center;
+}
+
+nav > a.menusinf:hover {
+  transition: 2s;
+  color: #ffffff;
+  background-color: #181818;
+}
+
+/* __________________________________________________________ */
